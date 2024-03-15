@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyramid Meditation Channel</title>
+    <link rel="stylesheet" href="pmc.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition-duration: 0.4s;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .info {
+            display: none;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .info.active {
+            display: block;
+        }
+
+        .channel-link {
+            color: blue;
+            text-decoration: underline;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnfTjvnkPHRDq-4ro0U0HGTgRFMkzXYTWmOw&usqp=CAU" alt="Pyramid Image" width="300" height="200">
+        <h1>Pyramid Meditation Channel</h1>
+        <button class="button" onclick="toggleInfo('about')">About Us</button>
+        <button class="button" onclick="toggleInfo('missions')">Missions</button>
+        <button class="button" onclick="toggleInfo('programs')">Programs</button>
+        <button class="button" onclick="toggleInfo('events')">Events</button>
+        
+
+        <div id="about" class="info">
+            <h2>MAHESHWARA PYRAMID</h2>
+            <p>
+                The nucleus of the University is the Maheshwara Pyramid which is being constructed as a part of a unique cosmic design. It is ordained by the astral masters to take care of the changes that the Earth planet will go through in 2012 and thereafter. It will connect to the pyramid energy grid of our Earth and the cosmic energy grid of the Solar System.
+            </p>
+            <ul>
+                <li>Dimensions – 180′ x 180′ (32,400 sft)</li>
+                <li>Height – 113.60′</li>
+                <li>Compares at 1/20th the size of the famous Giza Pyramid</li>
+                <li>Perfectly aligned to True North</li>
+                <li>Built primarily with Granite, Steel and Lime stone</li>
+                <li>5000 people can Meditate at a time inside the Pyramid</li>
+            </ul>
+            <p>
+                Maheshwara Pyramid is the world’s largest Meditation Pyramid. It will very naturally energize and heal the people meditating inside it and also the surroundings far and wide.
+            </p>
+            <p>
+                For more info visit: <a href="http://www.maheshwarapyramid.org">Maheshwara Pyramid</a>
+            </p>
+        </div>
+        <div id="missions" class="info">
+            <h2>Missions</h2>
+            <p>Pyramid Spiritual Societies Movement (PSSM) carries out various missions:</p>
+            <ul>
+                <li>Free Classes: Across India, hundreds of thousands of meditation acquaintance classes and workshops have been held at various pyramid Centers and public places in different villages and towns. So far “PSSM” has reached out to more than 50,000 villages/towns. No money is charged for the activities of “PSSM”. Everything is done as a service to the mankind. “PSSM” believes in free and compulsory exchange of knowledge and wisdom.</li>
+                <li>Mega camps: “PSSM” continuously organizes large-scale multi-day meditation camps. Till date, hundreds of meditation camps have been held in over 75 major cities of India and hundreds of other district-level towns.</li>
+                <li>Global and National conferences: “PSSM” regularly organizes National and Global level conferences, for new-age spiritual scientists to share their research. So far seven Global Spiritual Congresses of Spiritual Scientists have been organized, all of them in the Pyramid Valley International, Bengaluru.</li>
+                <li>Dhyana Maha Chakrams: Every year in the month of December, “PSSM” organizes a mega spiritual congregation called “Dhyana Maha Chakram, attended by hundreds of thousands of meditators.</li>
+                <!-- Add more mission points here -->
+            </ul>
+        </div>
+        <div id="programs" class="info">
+            <h2>Programs</h2>
+            <p>
+                Explore the various programs offered by the Pyramid Spiritual Societies Movement (PSSM) through their YouTube channels:
+            </p>
+            <ul>
+                <li><a class="channel-link" href="https://www.youtube.com/c/PyramidSpiritualSocietiesMovement">PSSM</a></li>
+                <li><a class="channel-link" href="https://www.youtube.com/channel/UCDXrVF1e88GumHoWfImrAYA">PMC Telugu</a></li>
+                <li><a class="channel-link" href="https://www.youtube.com/channel/UCbV8CuxAZ6BO2Y4Ago-e7IQ">PMC Online TV – Telugu</a></li>
+                <li><a class="channel-link" href="https://www.youtube.com/channel/UCx2iJs8Y8FsZ10EDRT6UY6Q">PMC Hindi</a></li>
+
+                <!-- Add more YouTube channel links here -->
+            </ul>
+        </div>
+        <div id="events" class="info">
+            <h2>Events</h2>
+            <ul>
+                <li>July 16th – Guru Poornima, Sadananda Yogi Ashramam, Nandavaram</li>
+                <li>Aug 2nd-4th – Cosmic Reset Retreat, Virginia, USA – <a href="https://www.cosmicreset.com">www.cosmicreset.com</a></li>
+                <li>Aug 31st – Sep 01st – Spiritual Oneness Conference, Switzerland</li>
+                <li>Sep 28th – Oct1st – 12th Global Festival of Spiritual Sciences, Pyramid Valley, Bengaluru</li>
+                <li>Oct 2nd – Gandhi Jayanthi, Pyramid Valley, Bengaluru</li>
+                <li>Oct 11th – 15th – Maha Yog – Dhyan Kumbh – 3, Rishikesh</li>
+                <li>Nov 11th – Patriji’s Birthday Celebrations, Chennai, Tamilnadu</li>
+                <li>Nov 24th – Quantum Life University Annual Celebrations, Vikarabad</li>
+                <li>Dec 5th – 8th – Tamilnadu Dhyana Maha Yagnam – 2, Ganesha Pyramid, Puthukovil</li>
+                <li>Dec 21st – 31st – Dhyana Maha Chakram – X, Kailasapuri, Kadthal</li>
+            </ul>
+        </div>
+    </div>
+    
+
+ 
+    </div>
+
+    <script>
+        function toggleInfo(id) {
+            var info = document.getElementById(id);
+            if (info.classList.contains('active')) {
+                info.classList.remove('active');
+            } else {
+                // Hide all other sections
+                var allInfo = document.querySelectorAll('.info');
+                allInfo.forEach(function(element) {
+                    element.classList.remove('active');
+                });
+                // Show the selected section
+                info.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
